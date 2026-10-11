@@ -3,7 +3,7 @@ Cuatro prácticas en Google Colab. Las cuatro trabajan con **incidentes de segur
 
 | # | Práctica | Pregunta | Datos | Abrir en Colab |
 |---|---|---|---|---|
-| 1 | **Clasificación** | ¿Este incidente es un ataque real, una falsa alarma o algo normal? | Incidentes de SOC de Microsoft (GUIDE) | [Abrir](https://colab.research.google.com/github/lsandinop/analitica-procesos-ciberseguridad/blob/main/cuadernos/Practica_1_Clasificacion.ipynb) |
+| 1 | **Clasificación** | ¿Este incidente es una amenaza real, no hay amenaza o es actividad esperada? | Incidentes de SOC de Microsoft (GUIDE) | [Abrir](https://colab.research.google.com/github/lsandinop/analitica-procesos-ciberseguridad/blob/main/cuadernos/Practica_1_Clasificacion.ipynb) |
 | 2 | **Minería de procesos** | ¿Cómo se atiende *realmente* un incidente y dónde se pierde el tiempo? | Registro de incidentes de una mesa de servicio (ServiceNow) | [Abrir](https://colab.research.google.com/github/lsandinop/analitica-procesos-ciberseguridad/blob/main/cuadernos/Practica_2_Mineria_de_procesos.ipynb) |
 | 3 | **Segmentación** | ¿Qué tipos de incidentes hay según cómo se atienden? | El mismo registro de ServiceNow | [Abrir](https://colab.research.google.com/github/lsandinop/analitica-procesos-ciberseguridad/blob/main/cuadernos/Practica_3_Segmentacion.ipynb) |
 | 4 | **Detección de anomalías** | ¿Qué incidentes se comportan de forma rara? | El mismo registro de ServiceNow | [Abrir](https://colab.research.google.com/github/lsandinop/analitica-procesos-ciberseguridad/blob/main/cuadernos/Practica_4_Anomalias.ipynb) |
