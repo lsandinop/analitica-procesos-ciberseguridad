@@ -1,0 +1,13 @@
+# Solo se publica lo que necesitan los estudiantes. Todo lo demás queda fuera del repositorio.
+/*
+!/.gitignore
+!/README.md
+!/cuadernos/
+!/datos/
+!/scripts/
+/scripts/*
+!/scripts/preparar_guide.py
+!/scripts/preparar_servicenow.py
+
+# Los archivos originales de GUIDE (más de 1 GB) NO se publican: el repositorio solo lleva la muestra ya resumida
+/datos/GUIDE_*.csv
