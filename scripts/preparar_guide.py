@@ -9,7 +9,8 @@ Qué hace (cambios respecto del original, que la licencia pide conservar con su 
   1. El original trae una fila por cada evidencia de cada alerta (4,1 millones de filas en GUIDE_Test.csv). Aquí se
      resume en UNA FILA POR INCIDENTE: cuántas alertas y evidencias tiene, cuánto dura, qué tácticas MITRE ATT&CK
      aparecen y en qué proporción, qué tipos de entidades involucra y qué veredictos automáticos recibió.
-  2. Los nombres de columnas y las etiquetas pasan a español.
+  2. Los nombres de columnas pasan a español y las etiquetas de triaje reciben nombres propios (amenaza real = TruePositive,
+     sin amenaza = FalsePositive, actividad esperada = BenignPositive), para no confundirlas con los errores de un modelo.
   3. Se toma una muestra aleatoria de incidentes (semilla fija) para que el archivo se pueda descargar en Colab.
   4. Del detector que generó cada alerta solo se conserva el identificador del más frecuente en el incidente, y
      solo si está entre los 200 más comunes (si no, -1).
@@ -32,7 +33,7 @@ SEMILLA = 123456789
 
 COLUMNAS = ["OrgId", "IncidentId", "AlertId", "Timestamp", "DetectorId", "Category", "MitreTechniques", "IncidentGrade",
             "EntityType", "EvidenceRole", "SuspicionLevel", "LastVerdict", "CountryCode"]
-GRADO = {"TruePositive": "verdadero positivo", "FalsePositive": "falso positivo", "BenignPositive": "positivo benigno"}
+GRADO = {"TruePositive": "amenaza real", "FalsePositive": "sin amenaza", "BenignPositive": "actividad esperada"}
 TACTICAS = {"InitialAccess": "acceso_inicial", "Exfiltration": "exfiltracion", "SuspiciousActivity": "actividad_sospechosa",
             "CommandAndControl": "comando_y_control", "Impact": "impacto", "CredentialAccess": "acceso_a_credenciales",
             "Execution": "ejecucion", "Malware": "malware", "Discovery": "descubrimiento", "Persistence": "persistencia",

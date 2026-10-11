@@ -13,7 +13,7 @@
 **Cambios respecto del original** (hechos con fines académicos; los reproduce `scripts/preparar_guide.py`):
 1. El original trae una fila por cada evidencia de cada alerta; aquí se resume en **una fila por incidente** (cuántas alertas y pruebas tiene, su duración, la proporción de cada táctica MITRE ATT&CK y de cada tipo de entidad, y los veredictos automáticos).
 2. Se tomó una **muestra aleatoria de 80.000 incidentes** (semilla 123456789) del archivo `GUIDE_Test.csv`.
-3. Nombres de columnas y etiquetas traducidos al español. Del detector solo se conserva el identificador del más frecuente en el incidente (si está entre los 200 más comunes; si no, -1).
+3. Nombres de columnas traducidos al español. Las etiquetas de triaje reciben nombres propios, para no confundirlas con los errores de un modelo: **amenaza real** (TruePositive), **sin amenaza** (FalsePositive) y **actividad esperada** (BenignPositive). Del detector solo se conserva el identificador del más frecuente en el incidente (si está entre los 200 más comunes; si no, -1).
 
 ## `incidentes_servicenow.csv`
 **Fuente:** Amaral, C. A. M., Fantinato, M., Reijers, H. A. y Peres, S. M. (2018). *Incident management process enriched event log.* UCI Machine Learning Repository. https://doi.org/10.24432/C57S4H
