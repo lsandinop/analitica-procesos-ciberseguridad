@@ -1,5 +1,5 @@
 # Analítica de procesos para ciberseguridad · prácticas
-Cuatro prácticas en Google Colab. Las cuatro trabajan con **incidentes de seguridad y de TI**, y cada una responde una pregunta distinta con datos reales.
+Cuatro prácticas y una demostración corta en Google Colab. Todas trabajan con **incidentes de seguridad y de TI**, y cada una responde una pregunta distinta con datos reales.
 
 | # | Práctica | Pregunta | Datos | Abrir en Colab |
 |---|---|---|---|---|
@@ -7,6 +7,7 @@ Cuatro prácticas en Google Colab. Las cuatro trabajan con **incidentes de segur
 | 2 | **Minería de procesos** | ¿Cómo se atiende *realmente* un incidente y dónde se pierde el tiempo? | Registro de incidentes de una mesa de servicio (ServiceNow) | [Abrir](https://colab.research.google.com/github/lsandinop/analitica-procesos-ciberseguridad/blob/main/cuadernos/Practica_2_Mineria_de_procesos.ipynb) |
 | 3 | **Segmentación** | ¿Qué tipos de incidentes hay según cómo se atienden? | El mismo registro de ServiceNow | [Abrir](https://colab.research.google.com/github/lsandinop/analitica-procesos-ciberseguridad/blob/main/cuadernos/Practica_3_Segmentacion.ipynb) |
 | 4 | **Detección de anomalías** | ¿Qué incidentes se comportan de forma rara? | El mismo registro de ServiceNow | [Abrir](https://colab.research.google.com/github/lsandinop/analitica-procesos-ciberseguridad/blob/main/cuadernos/Practica_4_Anomalias.ipynb) |
+| Demo 2 | **Tablero de KPIs** (unos 15 min) | ¿Cómo se ve el proceso en un tablero de control con indicadores? | El mismo registro de ServiceNow | [Abrir](https://colab.research.google.com/github/lsandinop/analitica-procesos-ciberseguridad/blob/main/cuadernos/Demo_2_Tablero_de_KPIs.ipynb) |
 
 ## Cómo usarlas
 1. Abre una práctica con el enlace de la tabla e inicia sesión con tu cuenta de Google. Cada persona trabaja en **su propia copia temporal**: no puedes modificar este repositorio.
