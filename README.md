@@ -23,3 +23,6 @@ Los datos están en `datos/` y cada práctica los descarga sola desde aquí. **F
 - **Registro de incidentes de ServiceNow** (Amaral et al., UCI): licencia CC BY 4.0.
 
 Los scripts `scripts/preparar_guide.py` y `scripts/preparar_servicenow.py` reproducen los archivos a partir de los originales.
+
+## Salida de ejemplo de la demostración con IA
+La carpeta [`salida_demo/`](salida_demo/) guarda el resultado de la demostración «La IA como ayudante de analítica descriptiva» (Práctica 1): el análisis descriptivo de `guide_incidentes.csv` y su relación con la etiqueta. Trae el script `analisis.py`, el informe `reporte.md` y cinco figuras. Sirve para comparar con lo que obtenga cada persona. Es contenido generado con IA: se contrasta, no se da por cierto. Para reproducirlo, desde la raíz del repositorio: `python salida_demo/analisis.py` (unos 8 minutos; necesita pandas, scikit-learn, scipy y matplotlib).
